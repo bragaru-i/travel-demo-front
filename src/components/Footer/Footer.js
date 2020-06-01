@@ -4,11 +4,14 @@ import './Footer.css';
 import Icon from '../Icons';
 
 const Footer = () => {
+  const onClick = () => {
+    window.location.href = `mailto:bragaruion@gmail.com`;
+  };
   return (
     <div className="row">
       <div className="footer-container">
         <div className="footer-links">
-          <ul>
+          <ul onClick={onClick}>
             <li>About us</li>
             <li>Places To GO</li>
             <li>Packages</li>
