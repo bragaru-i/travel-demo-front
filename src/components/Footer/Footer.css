@@ -1,0 +1,23 @@
+footer {
+  margin-top: 60px;
+  background-color: #20252b;
+  height: 200px;
+  color: #f2f2f2;
+}
+
+.footer-container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+footer ul li {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}

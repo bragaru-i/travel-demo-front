@@ -1,25 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Fragment } from 'react';
+
 import './App.css';
+import NavigationTop from './components/Navigation/NavigationTop';
+import Herobox from './components/Herobox/Herobox';
+import Features from './components/Features/Features';
+import FavPlaces from './components/FavPlaces/FavPlaces';
+import Cities from './components/Cities/Cities';
+import Testimonials from './components/Testimonials/Testimonials';
+import FeedbackForm from './components/Feedback/FeedbackForm';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <Fragment>
+      <header>
+        <NavigationTop />
+        <Herobox />
       </header>
-    </div>
+      <section className="section-features">
+        <Features />
+      </section>
+      <section className="section-favplaces">
+        <FavPlaces />
+      </section>
+      <section className="section-cities">
+        <Cities />
+      </section>
+      <section className="section-guest-testimonials">
+        <Testimonials />
+      </section>
+      <section className="section-feedback">
+        <FeedbackForm />
+      </section>
+      <footer>
+        <Footer />
+      </footer>
+    </Fragment>
   );
 }
 

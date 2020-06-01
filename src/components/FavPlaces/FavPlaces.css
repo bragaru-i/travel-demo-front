@@ -1,0 +1,44 @@
+.section-favplaces {
+  margin-top: 60px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.fav-places-row {
+  width: 100%;
+}
+.fav-places-row ul {
+  width: 100%;
+  height: 200px;
+  list-style: none;
+  display: flex;
+  align-content: stretch;
+  background-color: #000;
+}
+.fav-places-row ul li {
+  width: 25%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.fav-places-row ul li img {
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+  transform: scale(1.03);
+  transition: transform 1s, opacity 1.5s;
+}
+
+.fav-places-row ul li img:hover {
+  transform: scale(1.15);
+  overflow: hidden;
+  opacity: 0.9;
+}
+@media only screen and (max-width: 767px) {
+  .fav-places-row {
+    display: none;
+  }
+}

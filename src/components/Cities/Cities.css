@@ -1,0 +1,19 @@
+.section-cities {
+  margin-top: 60px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.cities-container {
+  display: flex;
+  width: 100%;
+  align-content: stretch;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 767px) {
+  .cities-container {
+    justify-content: center;
+  }
+}
