@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/travel-demo-front/static/css/main.b793da3b.chunk.css",
+    "main.js": "/travel-demo-front/static/js/main.df4c10af.chunk.js",
+    "main.js.map": "/travel-demo-front/static/js/main.df4c10af.chunk.js.map",
+    "runtime-main.js": "/travel-demo-front/static/js/runtime-main.dc7014b3.js",
+    "runtime-main.js.map": "/travel-demo-front/static/js/runtime-main.dc7014b3.js.map",
+    "static/js/2.4691620f.chunk.js": "/travel-demo-front/static/js/2.4691620f.chunk.js",
+    "static/js/2.4691620f.chunk.js.map": "/travel-demo-front/static/js/2.4691620f.chunk.js.map",
+    "index.html": "/travel-demo-front/index.html",
+    "precache-manifest.b512100b2144e72d31e1a04dccdf6db1.js": "/travel-demo-front/precache-manifest.b512100b2144e72d31e1a04dccdf6db1.js",
+    "service-worker.js": "/travel-demo-front/service-worker.js",
+    "static/css/main.b793da3b.chunk.css.map": "/travel-demo-front/static/css/main.b793da3b.chunk.css.map",
+    "static/js/2.4691620f.chunk.js.LICENSE.txt": "/travel-demo-front/static/js/2.4691620f.chunk.js.LICENSE.txt",
+    "static/media/1.jpg": "/travel-demo-front/static/media/1.7f061138.jpg",
+    "static/media/2.jpg": "/travel-demo-front/static/media/2.1282e172.jpg",
+    "static/media/3.jpg": "/travel-demo-front/static/media/3.7f63313e.jpg",
+    "static/media/4.jpg": "/travel-demo-front/static/media/4.c9cfed80.jpg",
+    "static/media/5.jpg": "/travel-demo-front/static/media/5.6ed19f26.jpg",
+    "static/media/6.jpg": "/travel-demo-front/static/media/6.49b32ad2.jpg",
+    "static/media/7.jpg": "/travel-demo-front/static/media/7.d334349f.jpg",
+    "static/media/card1.jpg": "/travel-demo-front/static/media/card1.30229760.jpg",
+    "static/media/card2.jpg": "/travel-demo-front/static/media/card2.f908bd46.jpg",
+    "static/media/card3.jpg": "/travel-demo-front/static/media/card3.9b2a6c60.jpg",
+    "static/media/index.css": "/travel-demo-front/static/media/hero-1.4e6c5cb2.jpg",
+    "static/media/Testimonials.css": "/travel-demo-front/static/media/testimonials.00258f12.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc7014b3.js",
+    "static/js/2.4691620f.chunk.js",
+    "static/css/main.b793da3b.chunk.css",
+    "static/js/main.df4c10af.chunk.js"
+  ]
+}
