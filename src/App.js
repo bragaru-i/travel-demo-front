@@ -17,13 +17,13 @@ function App() {
         <NavigationTop />
         <Herobox />
       </header>
-      <section className="section-features">
+      <section className="section-features" id="features">
         <Features />
       </section>
       <section className="section-favplaces">
         <FavPlaces />
       </section>
-      <section className="section-cities">
+      <section className="section-cities" id="cities">
         <Cities />
       </section>
       <section className="section-guest-testimonials">
